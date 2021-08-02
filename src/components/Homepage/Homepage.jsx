@@ -12,6 +12,15 @@ const Homepage = () => {
         <li>
           <Link to="/example/2">React hooks usage</Link>
         </li>
+        <li>
+          <Link to="/example/3">
+            Infinite Scroll with Intersection Observer API
+          </Link>
+          <strong>(🚧pending🚧)</strong>
+        </li>
+        <li>
+          <Link to="/example/4">Design a Carousel</Link>
+        </li>
       </ol>
     </>
   );

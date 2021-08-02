@@ -1,0 +1,14 @@
+.step {
+  text-align: center;
+}
+.step__dot {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-color: rgb(197, 197, 197);
+  margin: 0 3px;
+  border-radius: 50%;
+}
+.active {
+  background-color: gray;
+}

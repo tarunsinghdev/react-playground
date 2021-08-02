@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Carousel from './components/Carousel/Carousel';
 
 import Homepage from './components/Homepage/Homepage';
+import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll';
 import Parent from './components/Parent/Parent';
 import Resize from './components/Resize/Resize';
 
@@ -11,8 +13,10 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route exact path="/example/1" component={Resize} />
-          <Parent exact path="/example/2" component={Parent} />
+          <Route path="/example/1" component={Resize} />
+          <Route path="/example/2" component={Parent} />
+          <Route path="/example/3" component={InfiniteScroll} />
+          <Route path="/example/4" component={Carousel} />
         </Switch>
       </BrowserRouter>
     </div>

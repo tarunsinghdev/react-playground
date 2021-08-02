@@ -1,0 +1,37 @@
+.carousel__container {
+  display: flex;
+}
+.carousel__container > img {
+  height: 360px;
+  object-fit: contain;
+  width: 100%;
+}
+.carousel__container > img {
+  cursor: pointer;
+}
+.carousel__prev {
+  cursor: pointer;
+  align-self: center;
+  position: absolute;
+  background-color: aqua;
+  padding: 10px;
+  left: 35%;
+  transition: 0.3s ease;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.carousel__next {
+  cursor: pointer;
+  align-self: center;
+  position: absolute;
+  right: 35%;
+  padding: 10px;
+  background-color: aqua;
+  transition: 0.3s ease;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.carousel__prev:hover,
+.carousel__next:hover {
+  background-color: beige;
+}
