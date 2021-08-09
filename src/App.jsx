@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Carousel from './components/Carousel/Carousel';
+import GoogleTimer from './components/GoogleTimer/GoogleTimer';
 
 import Homepage from './components/Homepage/Homepage';
 import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll';
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/example/2" component={Parent} />
           <Route path="/example/3" component={InfiniteScroll} />
           <Route path="/example/4" component={Carousel} />
+          <Route path="/example/5" component={GoogleTimer} />
         </Switch>
       </BrowserRouter>
     </div>
