@@ -5,6 +5,7 @@ import GoogleTimer from './components/GoogleTimer/GoogleTimer';
 
 import Homepage from './components/Homepage/Homepage';
 import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll';
+import InputValidation from './components/InputValidation/InputValidation';
 import Parent from './components/Parent/Parent';
 import Resize from './components/Resize/Resize';
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/example/3" component={InfiniteScroll} />
           <Route path="/example/4" component={Carousel} />
           <Route path="/example/5" component={GoogleTimer} />
+          <Route path="/example/6" component={InputValidation} />
         </Switch>
       </BrowserRouter>
     </div>

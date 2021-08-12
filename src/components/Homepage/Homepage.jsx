@@ -24,6 +24,9 @@ const Homepage = () => {
         <li>
           <Link to="/example/5">Google Timer Clone</Link>
         </li>
+        <li>
+          <Link to="/example/6">Input Validation</Link>
+        </li>
       </ol>
     </>
   );
