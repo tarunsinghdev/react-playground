@@ -27,6 +27,9 @@ const Homepage = () => {
         <li>
           <Link to="/example/6">Input Validation</Link>
         </li>
+        <li>
+          <Link to="/example/7">Design Microsoft logo</Link>
+        </li>
       </ol>
     </>
   );

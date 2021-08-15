@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Carousel from './components/Carousel/Carousel';
+import FourQuandrant from './components/FourQuandrant/FourQuandrant';
 import GoogleTimer from './components/GoogleTimer/GoogleTimer';
 
 import Homepage from './components/Homepage/Homepage';
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/example/4" component={Carousel} />
           <Route path="/example/5" component={GoogleTimer} />
           <Route path="/example/6" component={InputValidation} />
+          <Route path="/example/7" component={FourQuandrant} />
         </Switch>
       </BrowserRouter>
     </div>
