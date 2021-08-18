@@ -30,6 +30,9 @@ const Homepage = () => {
         <li>
           <Link to="/example/7">Design Microsoft logo</Link>
         </li>
+        <li>
+          <Link to="/example/8">Convert Roman Numeral to Decimal</Link>
+        </li>
       </ol>
     </>
   );

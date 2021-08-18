@@ -9,6 +9,7 @@ import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll';
 import InputValidation from './components/InputValidation/InputValidation';
 import Parent from './components/Parent/Parent';
 import Resize from './components/Resize/Resize';
+import RomanToDecimal from './components/RomanToDecimal/RomanToDecimal';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/example/5" component={GoogleTimer} />
           <Route path="/example/6" component={InputValidation} />
           <Route path="/example/7" component={FourQuandrant} />
+          <Route path="/example/8" component={RomanToDecimal} />
         </Switch>
       </BrowserRouter>
     </div>
