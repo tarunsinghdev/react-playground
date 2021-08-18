@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Carousel from './components/Carousel/Carousel';
+import DecimalToRoman from './components/DecimalToRoman/DecimalToRoman';
 import FourQuandrant from './components/FourQuandrant/FourQuandrant';
 import GoogleTimer from './components/GoogleTimer/GoogleTimer';
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/example/6" component={InputValidation} />
           <Route path="/example/7" component={FourQuandrant} />
           <Route path="/example/8" component={RomanToDecimal} />
+          <Route path="/example/9" component={DecimalToRoman} />
         </Switch>
       </BrowserRouter>
     </div>
